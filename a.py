@@ -11,6 +11,9 @@ def main():
     label.resize(300, 100)  # ウィンドウサイズ
     label.show()  # 表示
 
+
+    
+
     # イベントループ開始
     sys.exit(app.exec())
 
