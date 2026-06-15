@@ -23,7 +23,7 @@
                 - SongListWidget
                     - 曲一覧
 
-            - SerchresultsWidget　　-----------追加
+            - SerchresultWidget　　-----------追加
                 - 検索結果一覧　　------追加
 
             - QueueWidget
@@ -88,19 +88,18 @@
 
             - widgets
                 - header_widget.py
-
                 - search_widget.py
+                - serchresult_widget.py --------追加
                 - song_list_widget.py
-
                 - queue_widget.py
 
                 - karaoke_widget.py
+
                 - player_widget.py
                 - volume_widget.py
                 - microphone_widget.py  -----------追加
-
                 - lyrics_widget.py
-
+                
                 - scoring_widget.py
 
             - models
