@@ -1,5 +1,6 @@
 - 使用技術
-    - Python,PySide6
+    - Python
+    - PySide6
 
 - アプリ名: カラオケAPP
     - 画面・機能設計
@@ -8,9 +9,13 @@
                 - アプリ名
                 - ユーザー情報
 
+            - HomeWigdget     ------------追加
+                - 検索ボタン
+
             - SearchWidget
                 - 曲名入力欄
-                - 検索ボタン
+                - 検索決定ボタン   ----------変更
+                - 人気曲欄   ------------追加
                 - SongListWidget
                     - 曲一覧
 
@@ -25,15 +30,22 @@
                     - 再生ボタン
                     - 一時停止ボタン
                     - 停止ボタン
+                    - 歌いなおしボタン    ---------------追加
                     - シークバー
                     - 再生時間
 
                 - VolumeWidget
-                    - 音量スライダー
+                    - メイン音量スライダー      -------------追加(音量スライダー消去)
+                    - ミュージック音量スライダー   -------------追加
+                    - マイク音量スライダー   ------------追加
                     - ミュートボタン
+                
+                - MicrophoneWidget   -----------追加(できるかわからないけど)
+                    - エコースライダー
 
                 - LyricsWidget
                     - 歌詞表示
+
 
             - ScoringWidget
                 - 採点有効化ボタン
@@ -72,6 +84,8 @@
                 - karaoke_widget.py
                 - player_widget.py
                 - volume_widget.py
+                - microphone_widget.py  -----------追加
+
                 - lyrics_widget.py
 
                 - scoring_widget.py
