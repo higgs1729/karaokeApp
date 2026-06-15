@@ -9,52 +9,52 @@
                 - アプリ名 :画面上部に大きく"カラオケAPP"と表示
                 <!-- - ユーザー情報 :画面右上部にユーザー情報()を表示する -->
 
-            - HomeWigdget     -----------追加
-                - 検索ボタン :SearchWidgetへの画面遷移をするためのボタン。   ------------追加
-                - 人気曲欄   ------------追加
-                - 音量調整設定ボタン(VolumeWidget)  ------------追加
-                - 再生設定ボタン(PlayerWidget)   -----------追加
+            - HomeWigdget
+                - 検索ボタン :SearchWidgetへの画面遷移をするためのボタン。   
+                - 人気曲欄
+                - 音量調整設定ボタン(VolumeWidget)
+                - 再生設定ボタン(PlayerWidget)
                 - 予約管理ボタン
 
             - SearchWidget
                 - 曲名入力欄 :キーワードや曲名やアーティスト名での楽曲検索が可能なテキスト入力欄
                 - 検索決定ボタン :曲名入力欄での入力を決定
-                - 簡易検索一覧　　　----------追加
+                - 簡易検索一覧
                 - SongListWidget
                     - 曲一覧
 
-            - SerchresultWidget　　-----------追加
-                - 検索結果一覧　　------追加
+            - SerchresultWidget
+                - 検索結果一覧
 
             - QueueWidget
-                - 予約曲一覧　　--------追加
+                - 予約曲一覧
                 - 曲削除
                 - 曲順変更
 
-            - MusicNameWidget   ------------追加
-                - 曲名表示　　　　------------
-                - アーティスト名表示  ------------
-                - ジャケット   --------------
-                - 歌いだし表示(歌詞の一部)  ---------------
-                - 予約ボタン  ---------------
+            - MusicNameWidget
+                - 曲名表示
+                - アーティスト名表示
+                - ジャケット
+                - 歌いだし表示(歌詞の一部)
+                - 予約ボタン
 
             - KaraokeWidget
                 - PlayerWidget
                     - 再生ボタン
                     - 一時停止ボタン
                     - 停止ボタン
-                    - 歌いなおしボタン    ---------------追加
+                    - 歌いなおしボタン
                     - シークバー
                     - 再生時間
 
                 - VolumeWidget
-                    - メイン音量スライダー      -------------追加(音量スライダー消去)
-                    - ミュージック音量スライダー   -------------追加
-                    - マイク音量スライダー   ------------追加
+                    - メイン音量スライダー
+                    - ミュージック音量スライダー
+                    - マイク音量スライダー
                     - ミュートボタン
                 
-                - MicrophoneWidget   -----------追加(できるかわからないけど)
-                    - エコースライダー  ---------------
+                - MicrophoneWidget
+                    - エコースライダー
 
                 - LyricsWidget
                     - 歌詞表示
@@ -89,7 +89,7 @@
             - widgets
                 - header_widget.py
                 - search_widget.py
-                - serchresult_widget.py --------追加
+                - serchresult_widget.py
                 - song_list_widget.py
                 - queue_widget.py
 
@@ -97,7 +97,7 @@
 
                 - player_widget.py
                 - volume_widget.py
-                - microphone_widget.py  -----------追加
+                - microphone_widget.py
                 - lyrics_widget.py
                 
                 - scoring_widget.py
